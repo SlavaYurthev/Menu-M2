@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Menu
+ * 
+ * @author Slava Yurthev
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:App/etc/routes.xsd">
+	<router id="admin">
+		<route id="sy_menu" frontName="sy_menu">
+			<module name="SY_Menu" />
+		</route>
+	</router>
+</config>
